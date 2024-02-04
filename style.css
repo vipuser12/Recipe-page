@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Outfit:wght@400;600;700&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Outfit:wght@400;600;700&family=Young+Serif&display=swap');
+
+:root {
+    --Nutmeg-color: hsl(14, 45%, 36%);
+    --Dark-Raspberry: hsl(332, 51%, 32%);
+    --White: hsl(0, 0%, 100%);
+    --Rose-White: hsl(330, 100%, 98%);
+    --Eggshell: hsl(30, 54%, 90%);
+    --Light-Grey: hsl(30, 18%, 87%);
+    --Wenge-Brown: hsl(30, 10%, 34%);
+    --Dark-Charcoal: hsl(24, 5%, 18%);
+    --Desktop: 1440px;
+
+}
+
+body {
+    background-color: var(--Eggshell);
+    padding: 0;
+    margin: auto;
+    width: var(--Desktop);
+    max-width: 100vw;
+}
+
+h1 {
+    font-family: "young serif", serif;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: "outfit", serif;
+    color: var(--Dark-Raspberry)
+}
+
+h2 {
+    font-family: "young serif", serif;
+    font-weight: 400;
+    color: var(--Nutmeg-color)
+}
+
+p {
+    font-family: "outfit", serif;
+    color: var(--Wenge-Brown)
+}
+
+ul {
+    color: var(--Wenge-Brown);
+    font-family: "outfit", serif;
+}
+
+ol {
+    color: var(--Wenge-Brown);
+    font-family: "outfit", serif;
+
+}
+
+li {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.container {
+    background-color: var(--White);
+    width: 650px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 30px;
+    overflow-x: visible;
+
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: var(--Desktop)) {
+    .container {
+        width: 90vw;
+    }
+}
+
+.pre {
+    background-color: var(--Rose-White);
+    border-radius: 10px;
+    padding: 10px 25px;
+}
+
+hr {
+    color: gray !important;
+}
+
+ul {
+
+    font-family: "outfit", serif;
+    list-style-image: radial-gradient(circle, var(--Nutmeg-color) 50%, transparent 50%);
+
+
+}
+
+ol li::marker {
+    color: var(--Nutmeg-color);
+    font-weight: 700;
+}
+
+table tr {
+    border-bottom: 0.5px solid gray !important;
+
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 590px;
+    padding: 15px;
+    position: relative;
+
+
+}
+
+table {
+    font-size: 1.3rem;
+    font-family: "outfit", serif;
+}
+
+table td {
+    font-weight: 600;
+    color: var(--Nutmeg-color);
+    position: relative !important;
+    display: flex !important;
+    right: 90px;
+
+}
