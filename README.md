@@ -2,6 +2,9 @@
 
 ![Design preview for the Recipe page coding challenge](./design/desktop-preview.jpg)
 
+##Live Preview
+https://vipuser12.github.io/Recipe-page/
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
